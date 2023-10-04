@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@deno/mod.js';
+import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@v0.1.1-deno/mod.js';
 ```
 
 #### imul( a, b )
@@ -89,7 +89,7 @@ v = imul( 1073741824|0, -5|0 ); // 2^30 * -5 = -5368709120 => 32-bit integer ove
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import INT32_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int32-min@deno/mod.js';
 import INT32_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int32-max@deno/mod.js';
-import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@deno/mod.js';
+import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@v0.1.1-deno/mod.js';
 
 var randi;
 var a;
