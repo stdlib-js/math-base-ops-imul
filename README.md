@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-ops-imul/tags). For example,
+
+```javascript
 import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@v0.2.0-deno/mod.js';
 ```
 
@@ -89,7 +94,7 @@ v = imul( 1073741824|0, -5|0 ); // 2^30 * -5 = -5368709120 => 32-bit integer ove
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import INT32_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int32-min@deno/mod.js';
 import INT32_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int32-max@deno/mod.js';
-import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@v0.2.0-deno/mod.js';
+import imul from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-imul@deno/mod.js';
 
 var randi;
 var a;
